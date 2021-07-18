@@ -1,7 +1,7 @@
 package leetcode
 
-func replaceSpace(s string) string {
-	ans := []byte{}
+func ReplaceSpace(s string) string {
+	var ans []byte
 	for i := range s {
 		if s[i] ==' ' {
 			ans = append(ans, []byte("%20")...)
