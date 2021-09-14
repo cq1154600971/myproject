@@ -6,16 +6,8 @@ import (
 )
 
 func main() {
-	s := "hello world ok"
-	fmt.Println(leetcode.ReplaceSpace(s))
-	testmap := map[string]int64{}
-	arr := []int{1,2,3,4}
-	arr1 := [...]int{1,2,3}
-	test(testmap, arr, arr1)
-	fmt.Println(".......")
-	fmt.Println(testmap)
-	fmt.Println(&arr[0])
-	fmt.Println(&arr1[0])
+	s := "0P"
+	fmt.Println(leetcode.IsPalindrome(s))
 }
 
 func test(testmap map[string]int64, arr []int, arr1 [3]int) {
